@@ -1,4 +1,4 @@
-from metrics_repo.analyzers.churn_analyzer import calculate_churn_rate
+from analyze.analyzers.churn_analyzer import calculate_churn_rate
 import pandas as pd
 
 def test_churn_rate():
